@@ -11,7 +11,12 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className="text-3xl font-bold underline">Hello World</h1>
+      <div className='flex p-10'>
+      <h1 className="text-4xl font-bold ">Hello World from google cloud </h1>
+      <h1 className="text-3xl font-bold ">inside a docker cointainer </h1>
+      <h1 className="text-2xl font-bold ">that has pulled its code from a github repo </h1>
+      <h1 className="text-1xl font-bold ">it also features tailwinds and TYPESCRIPT! </h1>
+      </div>
 
     </div>
   )
